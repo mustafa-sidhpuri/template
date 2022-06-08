@@ -4,13 +4,14 @@ temlate by techy panther
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+reference for google sign in using firebase: https://www.youtube.com/watch?v=1k-gITZA9CI <br>
+reference for facebook sign in using firebase: https://www.youtube.com/watch?v=PweQbVgR9iI <br>
+<br>
+All the classes have been initialized in injection.dart using get_it package. To use the classes see the example below: <br>
 
-A few resources to get you started if this is your first Flutter project:
+- FirebaseGoogleSignIn: sl<FirebaseGoogleSignIn>().
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br>
+Also add following lines in main() before runApp
+- import "injections.dart"
+- await di.init()
