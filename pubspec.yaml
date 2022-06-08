@@ -15,17 +15,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  # FirebaseLoginAndRegister
-  firebase_auth: ^3.3.19
-  firebase_core: ^1.17.1
-  firebase_storage: ^10.2.17
-  shared_preferences: ^2.0.15
-  # google sign in
-  google_sign_in: 5.3.3
-  # facebook sign in
-  flutter_facebook_auth: ^4.3.4+1
-  dartz: 0.10.1
-  get_it: ^7.2.0
+
 
 
 dev_dependencies:
