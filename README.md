@@ -2,15 +2,13 @@
 
 temlate by techy panther
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Dependencies
+- equatable: 2.0.3
+- flutter_bloc: ^8.0.1
+- dio: ^4.0.6
+- fimber: ^0.6.6
+- connectivity_plus: ^2.3.2
+- internet_connection_checker: ^0.0.1+4
+- intl: ^0.17.0
+- shared_preferences: ^2.0.15
+- get_it: ^7.2.0
