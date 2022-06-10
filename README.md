@@ -1,7 +1,8 @@
 # template
 
-template by techy panther
+template by Techy Panther
 
-## Getting Started
-
-Merge other branches with the base template.
+### Dependencies
+- firebase_core: 1.17.1
+- firebase_messaging: 11.4.1
+- flutter_local_notifications: 9.6.0

@@ -1,6 +1,16 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
+///Receive message when app is in background solution for on message
+Future<void> backgroundHandler(RemoteMessage message) async{
+  print(message.data.toString());
+  print(message.notification!.title);
+}
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  Firebase.initializeApp();
+  FirebaseMessaging.onBackgroundMessage(backgroundHandler);
   runApp(const MyApp());
 }
 
