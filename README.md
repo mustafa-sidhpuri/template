@@ -2,6 +2,6 @@
 
 template by techy panther
 
-## Getting Started
-
-Merge other branches with the base template.
+### Dependencies
+- sqflite: ^2.0.2+1
+- path_provider: 2.0.11
