@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:template/flvor_config.dart';
 
-void main() {
+void mainCommon(FlavorConfig config) {
+  // TODO: create a provider or initialized it
   runApp(const MyApp());
 }
 
@@ -11,7 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // TODO: change with FlavorConfig object, title, theme and others
       title: 'Flutter Demo',
+
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

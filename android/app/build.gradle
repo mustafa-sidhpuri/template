@@ -52,7 +52,22 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
+    flavorDimensions "app"
 
+    productFlavors {
+        release {
+            dimension "app"
+            applicationId "com.techypanther.release"
+            versionCode 1
+            versionName "1.0"
+        }
+        dev {
+            dimension "app"
+            applicationId "com.techypanther.dev"
+            versionCode 1
+            versionName "1.0"
+        }
+    }
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
