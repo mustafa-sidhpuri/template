@@ -2,6 +2,6 @@
 
 template by techy panther
 
-## Getting Started
-
-Merge other branches with the base template.
+## Dependencies
+- device_info_plus
+- package_info_plus
