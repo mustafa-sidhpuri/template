@@ -1,6 +1,6 @@
-# template
+# Template
 
-template by techy panther
+Template by Techy Panther to build apps more faster with pre written code.
 
 ## Getting Started
 
