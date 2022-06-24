@@ -12,3 +12,6 @@ temlate by techy panther
 - intl: ^0.17.0
 - shared_preferences: ^2.0.15
 - get_it: ^7.2.0
+
+### Description
+This branch contains all the code required to call an api with internet connection checker.
