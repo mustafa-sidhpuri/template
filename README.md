@@ -7,3 +7,5 @@ temlate by techy panther
 - image_picker: 
 
 
+## Description
+This bracnh contains code related to uploading files or images to firebase storage.
