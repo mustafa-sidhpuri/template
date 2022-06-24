@@ -1,4 +1,4 @@
-# template
+# Firebase Logins
 
 temlate by techy panther
 
@@ -31,5 +31,12 @@ add following dependencies.
 - dartz: 0.10.1
 - get_it: ^7.2.0
   
-### merge these branches also:
-- firebase_utils
+## Descripotion
+This branch contains following types of logins using firebase:
+- Google
+- Facebook
+- Email and Password
+- Phone number and OTP
+<br>
+  <b>Merge these branches also</b>
+  - firebase_utils
