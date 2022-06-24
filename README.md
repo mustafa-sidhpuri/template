@@ -8,4 +8,4 @@ Template by Techy Panther to build apps more faster with pre written code.
 - connectivity_plus: ^2.3.0
 
 ## Description
-This branch contains all the code required for implementing bloc state management.
+This branch contains all the code required for implementing bloc state management with an internet cubit.
