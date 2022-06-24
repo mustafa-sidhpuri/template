@@ -1,4 +1,4 @@
-# template
+# Dio Template
 
 temlate by techy panther
 
